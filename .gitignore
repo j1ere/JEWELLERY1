@@ -1,0 +1,28 @@
+# Ignore virtual environment managed by Poetry
+.venv/
+venv/
+
+# Ignore Poetry-specific files and directories
+.poetry/
+.poetry.lock
+
+# Ignore Django-specific files and directories
+*.pyc
+__pycache__/
+*.sqlite3
+db.sqlite3
+/staticfiles/
+
+
+# Ignore secret keys and sensitive information
+*.secret_key
+.env
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
