@@ -1,0 +1,30 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+.venv/
+venv/
+
+# Django files
+*.log
+*.pot
+*.pyc
+*.so
+*.zip
+*.pyo
+*.compiled
+*.mo
+*.log
+*.pickle
+*.min.js
+*.min.css
+
+# VSCode files
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Other files
+*.sqlite3
